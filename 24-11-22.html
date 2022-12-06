@@ -1,0 +1,17 @@
+<p>A time-based greeting:</p>
+<p id="demo"></p>
+
+<script>
+  function myFunction() {
+  document.getElementById("demo").innerHTML = "greeting";
+  <button type="button" onclick="myFunction()">Try it</button>
+  }
+  const hour = new Date().getHours
+  let greeting;
+
+  if (hour < 18){
+    greeting = "Good Day!"
+  }else {
+    greeting = "Good Evening";
+  }
+</script>
